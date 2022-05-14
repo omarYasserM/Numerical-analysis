@@ -1,0 +1,101 @@
+
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: #cccccc;
+    padding: 25px;
+}
+body>* {
+    background-color: white;
+    width: 100%;
+    margin-bottom: 10px;
+    box-shadow: 0 3px 3px -2px rgb(39 44 51 / 10%), 0 3px 4px 0 rgb(39 44 51 / 4%), 0 1px 8px 0 rgb(39 44 51 / 2%);
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0 20px 0;
+}
+#method-selector {
+    border: none;
+    border-radius: 2px;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 16px;
+    text-transform: uppercase;
+    font-size: 18px;
+    outline: 0;
+    background-color: #DFDFDF;
+    color: #9F9F9F;
+}
+form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+}
+input {
+    border: 1px solid #9e9e9e;
+    border-radius: 0;
+    outline: none;
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 5px;
+    padding: 0;
+}
+#fx {
+    width: fit-content;
+    text-align: start;
+    padding-left: 10px;
+}
+.x {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+
+}
+form .btn {
+    border: none;
+    border-radius: 2px;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 16px;
+    text-transform: uppercase;
+    outline: 0;
+    background-color: rgb(180, 180, 180);
+    color: #7f7f7f;
+    box-shadow: 1px 3px 5px rgba(39,44,51,.075);
+}
+.btn:hover {
+    transition: all 0.5s ease;
+    background-color: #DFDFDF;
+    color: #9F9F9F;
+    transform: translateY(1px);
+}
+section {
+    padding: 30px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+td,
+th {
+    border: 1px solid #cccccc;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}

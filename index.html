@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numerical project</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+  
+
+    <header>
+        <select name="method" id="method-selector">
+            <option value="0">Bisection</option>
+            <option value="1">False Position</option>
+            <option value="2">Fixed Point</option>
+            <option value="3">Newton</option>
+            <option value="4">Secant</option>
+            <button>Select</button>
+        </select>
+    </header>
+    <section>
+        <form id="my-form">
+  
+                <input type="text" id="fx" placeholder="Fx = (6x^3-5x^2+7x-2)">
+
+            <div class="x-input">
+                <input type="text" id="xl" placeholder="Xl">
+
+                <input type="text" id="xu" placeholder="Xu">
+
+                <input type="text" id="x" placeholder="Xi">
+
+                <input type="text" id="xi1" placeholder="xi-1">
+            </div>
+                <input type="text" id="maxError" placeholder="Error" style="width: 75px">
+
+            <div>
+                <button class="btn" id="clear-btn">Clear</button>
+                <button class="btn" id="calc-btn">Calculate</button>
+            </div>
+
+        </form>
+    </section>
+    <section>
+        <table id="table-of-results">
+          
+        </table>
+    </section>
+
+    <script src="math.js" ></script>
+    <script src="index.js"></script>
+
+
+</body>
+
+</html>
